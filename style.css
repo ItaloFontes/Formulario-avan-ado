@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background: #EFEFEF;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
+}
+
+body::before {
+    content: "";
+    width: 100%;
+    height: 368px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #535971;
+}
+
+
+header {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-left: 25%;
+}
+
+
+h1,p {
+    color: white;
+    line-height: auto;
+}
+
+h1 {
+    margin-bottom: 18px;
+}
+
+h2 {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 8px;
+
+}
+
+form {
+    background: #E6E6F0;
+    width: 50%;
+    margin: 58px auto;
+    border-radius: 8px;
+    padding: 64px;
+}
+
+fieldset {
+    border: none;
+    margin-top: 30px;
+}
+
+legend {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: #535971;
+    line-height: 34px; 
+}
+
+#linha_1 {
+    margin-top: 16px;
+    margin-bottom: 36px;
+    width: 100%;
+    border: 1px solid #cdcdd3;
+    height: 0;
+}
+
+#linha_2 {
+    margin-top: 8px;
+    margin-bottom: 32px;
+    width: 100%;
+    border: 1px solid #cdcdd3;
+    height: 0;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #C1BCCC;
+}
+
+span:hover {
+    color: #ff0000;
+}
+
+input {
+    margin-bottom: 16px;
+    height: 56px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.Nome {
+    display: flex;
+    gap: 30px;
+}
+
+.Nome_2, .Sobrenome {
+    width: 100%;
+}
+
+.Mentoria_1 {
+    display: flex;
+}
+
+.date {
+    margin-right: 32px;
+    width: 50%;
+}
+
+.Das {
+    width: 25%;
+    margin-right: 10px;
+}
+
+.ate {
+    width: 25%;
+}
