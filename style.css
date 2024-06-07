@@ -119,6 +119,8 @@ input {
 }
 
 
+/* Primeira e segunda mentoria */
+
 .Nome {
     display: flex;
     gap: 30px;
@@ -144,4 +146,46 @@ input {
 
 .ate {
     width: 25%;
+}
+
+/* Primeira e segunda mentoria */
+
+.buttom {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-top: 66px;
+}
+
+.buttom::before{
+    content: "";
+    background: #535971;
+    width: 50%; height: 160px;
+    position: absolute;
+    right: 25%;
+    left: 25%;
+    z-index: 0;
+    border-radius: 0 0 8px 8px;
+}
+
+
+button {
+    position: relative;
+    width: 50%; height: 55PX;
+    border-radius: 8px;
+    margin: auto;
+    background: #FF5374;
+    color: #FFFFFF;
+
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+button:hover {
+    background-color: rgb(24, 77, 24);
+    transition-duration: 0.2s;
+    box-shadow: 0 8px 16px 0 rgba(50, 207, 11, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
